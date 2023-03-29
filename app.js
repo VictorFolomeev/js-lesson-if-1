@@ -75,3 +75,13 @@
 // }
 
 // console.log(message);
+
+let message = '';
+
+for (let index = 0; index < 10; index++)
+    if (index % 2 !== 0){
+        continue;
+    message += `${index} `;
+    }
+
+    console.log(message);
