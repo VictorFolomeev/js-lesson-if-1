@@ -60,3 +60,18 @@
 //         console.log('Неизвестный тип пользователь')
 //         break;    
 // }
+
+// Цикл While
+
+// Вывести на экран числа от 1 до 10 через запятую.
+
+// let i = 0;
+// const lastNumber = 10;
+// let message = '';
+
+// while (++i <= lastNumber) {
+//     message += `${i}${i !== lastNumber ? ', ': ''}`;
+
+// }
+
+// console.log(message);
